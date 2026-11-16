@@ -1,0 +1,11 @@
+set(SHELL_SOURCES
+    ${CMAKE_CURRENT_LIST_DIR}/src/core.c
+    ${CMAKE_CURRENT_LIST_DIR}/src/vars.c
+    ${CMAKE_CURRENT_LIST_DIR}/src/parse.c
+    ${CMAKE_CURRENT_LIST_DIR}/src/arith.c
+    ${CMAKE_CURRENT_LIST_DIR}/src/expand.c
+    ${CMAKE_CURRENT_LIST_DIR}/src/jobs.c
+    ${CMAKE_CURRENT_LIST_DIR}/src/exec.c
+    ${CMAKE_CURRENT_LIST_DIR}/src/builtins.c
+    ${CMAKE_CURRENT_LIST_DIR}/src/main.c
+)
